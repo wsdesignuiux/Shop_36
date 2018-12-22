@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#338d8d8d" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="91.29dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/photo1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="14.5dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:text="T-shirt"
+                    android:textColor="#ffffff"
+                    android:textSize="11.5sp" />
+
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_share" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11.5dp"
+                android:layout_marginBottom="12.1dp"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:text="Grey melange in colour, this T-shirt from TOM TAILOR showcases."
+                android:textColor="#ffffff"
+                android:textSize="10.6sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView1"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/profile"
+                        app:riv_border_color="#000000"
+                        app:riv_border_width="1dp"
+                        app:riv_oval="true" />
+
+                    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView2"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/profile1"
+                        app:riv_border_color="#000000"
+                        app:riv_border_width="1dp"
+                        app:riv_oval="true" />
+
+                    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView3"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="30dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/profile2"
+                        app:riv_border_color="#000000"
+                        app:riv_border_width="1dp"
+                        app:riv_oval="true" />
+
+                    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView4"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="45dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/profilelogin"
+                        app:riv_border_color="#000000"
+                        app:riv_border_width="1dp"
+                        app:riv_oval="true" />
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/imageView5"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_blank_white"
+                            app:riv_border_color="#000000"
+                            app:riv_border_width="1dp"
+                            app:riv_oval="true" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="+13"
+                            android:textColor="#000000"
+                            android:textSize="8sp" />
+                    </FrameLayout>
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_like" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="127"
+                        android:textColor="#ffffff"
+                        android:textSize="8.6dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#338d8d8d" />
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_margin="15.4dp"
+        android:background="@drawable/group_1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:gravity="center"
+            android:text="Tuxedo"
+            android:textColor="#ffffff"
+            android:textSize="13.4sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:gravity="center"
+            android:letterSpacing="0.465"
+            android:text="178 ITEMS"
+            android:textColor="#ffffff"
+            android:textSize="8.4sp" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/viewline"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#338d8d8d" />
+
+
+</LinearLayout>
